@@ -46,3 +46,7 @@ img{
 .Images {
     margin-left: 100px;
 }
+.info{
+    font-weight: bold;
+    font-style: italic;
+}
