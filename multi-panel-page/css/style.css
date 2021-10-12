@@ -1,0 +1,114 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.content{
+    width: 960px;
+    /* background-color:rgba(247, 192, 237, .3); */
+    margin: auto;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: white;
+}
+header{
+    text-align: center;
+    height: 480px;
+    background-image: url(https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-2060x1288.jpg);
+}
+header .content{
+    padding: 150px 0 100px 0;
+}
+header h1{
+    font-size: 80px;
+    color: rgb(228, 228, 228);
+}
+header h2{
+    margin: -3px;
+    font-size: 30px;
+    color: rgb(223, 223, 223);
+}
+
+section .content{
+    padding: 55px 0 28px 0;
+}
+
+section h1{
+    font-size: 40px;
+    padding: 40px 0 15px 0;
+    margin-top: -53px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5rem;
+    color: rgb(219, 219, 219);
+}
+.sec1{
+    background-color: rgb(35, 71, 134);
+}
+.sec1 img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 40px 40px;
+}
+ul{
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+ul h1{
+    margin-top: 15px;
+}
+ul h2{
+    margin: 5px 0 5px 0;
+}
+ul li{
+    display: block;
+    width: 90%;
+}
+ul img{
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin: 0 12px 24px 0;
+}
+.sec2{
+    background-color:rgb(45, 43, 128);
+    padding: 8px 0 10px 0;
+}
+.sec3{
+    padding: 34px 0 41px 0;
+    margin: -10px 0 10px 0;
+    background-image: url(https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-2060x1288.jpg);
+    background-size: 100%;
+}
+.sec3 h1{
+    font-size: 40px;
+    padding: 8px 0 0 0;
+    margin: -9px;
+    color:rgb(255, 255, 255)
+}
+.sec3 p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 2.5rem;
+    color:rgb(219, 219, 219)
+}
+footer{
+    margin-top: 22px;
+    background-color: white;
+}
+footer div{
+    padding: 22px 2px 10px 10px;
+    background-color: white;
+}
+copyright{
+    font-size: 18px;
+    margin-bottom: 10px;
+} 
