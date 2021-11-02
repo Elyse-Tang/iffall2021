@@ -1,0 +1,510 @@
+/* netflix */
+
+a#btn_netflix {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #e22020;
+    border: 2px solid #e22020;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_netflix:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* ibm */
+a#btn_ibm {
+    display: block;
+    width: 140px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #144886;
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_ibm:hover {
+    background-color: #2e2e2e;
+}
+
+
+/* twitter */
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/* starbucks */
+a#btn_starbucks {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #045e04;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_starbucks:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    transition: all .5s;
+}
+
+a#btn_starbucks:hover {
+    color: #59c559;
+}
+
+a#btn_starbucks:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_starbucks span {
+    position: relative;
+    z-index: 10;
+}
+
+/* coca cola */
+a#btn_coca-cola{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #F40009;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_coca-cola:hover{
+    background-color: white;
+    color: #F40009;
+    border: 2px solid #F40009;
+    font-size: 25px;
+    padding: 5px 30px 30px 30px;
+}
+
+/* apple */
+
+a#btn_apple{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color:	#A2AAAD;
+    color: white;
+    box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 35px;
+}
+
+a#btn_apple i{
+    transform: scale(4);
+}
+
+a#btn_apple:hover {
+background: #000000;
+box-shadow: 0 0 8px rgb(109, 109, 109);
+}
+
+/* snapchat */
+a#btn_snapchat{
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 35px;
+}
+
+a#btn_snapchat i{
+    transform: scale(6);
+    color: rgb(252, 252, 16);
+}
+
+a#btn_snapchat i:hover{
+    color:black;
+    filter:opacity(35);
+}
+
+/* instagram */
+a#btn_ins{
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 35px;
+}
+
+a#btn_ins i{
+    transform: scale(6);
+    color: rgb(252, 16, 220);
+}
+
+a#btn_ins i:hover{
+    color:black;
+    filter:opacity(35);
+}
+
+/* hulu */
+a#btn_hulu {
+    display: inline-block;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    height: 40px;
+    box-sizing: border-box;
+    color: rgb(12, 240, 42);;
+    font-size: 35px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_hulu:hover {
+    /* background-color: rgb(12, 240, 42); 
+    color: #fff; */
+    color: rgb(10, 88, 0)
+}
+
+/* Pinterest */
+a#btn_pinterest{
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 35px;
+}
+
+a#btn_pinterest i{
+    transform: scale(6);
+    color: rgb(233, 29, 15);
+}
+
+a#btn_pinterest i:hover{
+    color:rgb(219, 34, 243);
+    filter:opacity(35);
+}
+
+
+/* NIKE */
+a#btn_nike {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 40px 0 0;
+    margin-left: -20px;
+    color:rgb(94, 94, 94);
+    font-size: 50px;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_nike:hover {
+    font-size: 50px;
+    letter-spacing: .1em;
+    color: #000;
+    font-style: italic;
+}
+
+/* Tesla */
+a#btn_tesla {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 40px 0 0;
+    margin-left: -20px;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;    
+    color: #e82127; 
+    font-weight: 800;
+    font-style: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_tesla:hover {
+    font-size: 33px;
+    letter-spacing: .1em;
+    color: #000;
+    margin-top: 77px;
+}
+
+/* pottermore */
+a#btn_potter{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: #8600f4;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_potter:hover{
+    background-color: white;
+    color: #2b00a1;
+    font-weight: bold;
+
+}
+
+/* velocity */
+a#btn_velocity {
+    display: block;
+    width: 230px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #a50000;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_velocity:hover {
+    background-color: #ffffff;
+    color: #a50000;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* MICHAEL KORS */
+a#btn_michael {
+    display: block;
+    width: 260px;
+    height: 60px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+a#btn_michael:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a#btn_michael:active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* samsung */
+a#btn_sams {
+    display: block;
+    width: 140px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #144886;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_sams:hover {
+    color: #ffffff;
+}
+
+a#btn_sams:active {
+    color: #7c7c7c;
+}
+
+/* moo */
+a#btn_moo {
+    display: block;
+    width: 140px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #377c0f;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 500;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_moo:hover {
+    color: #0c2000;
+}
+
+a#btn_moo:active {
+    color: #7c7c7c;
+}
+
+/* HARLEY DAVIDSON */
+a#btn_harley {
+    display: block;
+    width: 160px;
+    height: 88px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #000000;
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: 700;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_harley:hover {
+    color: #535353;
+    font-style: italic;
+    border-style: double;
+}
+
+a#btn_harley:active {
+    color: #ffffff;
+}
+
+/* fitbit */
+a#btn_fitbit {
+    display: block;
+    width: 160px;
+    height: 88px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_fitbit:hover {
+    color: #008d76;
+}
+
+a#btn_fitbit:active {
+    font-size: 33px;
+}
+
+/* electra */
+#btn_electrabike{
+    font-family: brush-script-std, sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    display: block;
+    height: 35x;
+    width: 125px;
+    margin-left: 75px;
+    background-color: none;
+    color: #10A8BF;
+    transition: all 1s;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+#btn_electrabike:hover{
+    color: #313131;
+}
